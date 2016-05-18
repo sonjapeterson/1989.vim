@@ -1,10 +1,10 @@
 # 1989.vim
 
-![taylor](http://i.imgur.com/IcEi3pC.gif)
+<img src="http://i.imgur.com/IcEi3pC.gif" width=500px>
 
-A color scheme for people who like vim and Taylor Swift.
+Maybe the first ever Taylor Swift themed color scheme for vim?
 
-![example](http://i.imgur.com/r3IIfeP.png)
+<img src="http://i.imgur.com/r3IIfeP.png" width=500px alt="example code">
 
 ## Basic use:
 - copy the `1989.vim` file into your colors directory (generally `~/.vim/colors`, prob different on Windows)
