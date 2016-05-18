@@ -7,7 +7,7 @@ Maybe the first ever Taylor Swift themed color scheme for vim?
 <img src="http://i.imgur.com/r3IIfeP.png" width=500px alt="example code">
 
 ## Basic use:
-- copy the `1989.vim` file into your colors directory (generally `~/.vim/colors`, prob different on Windows)
+- copy the `/colors/1989.vim` file into your colors directory (generally `~/.vim/colors`, prob different on Windows)
 - add `colorscheme 1989` to your `~/.vimrc` or test it out inside vim using `:colorscheme 1989`
 
 
