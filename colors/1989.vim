@@ -117,6 +117,8 @@ call <SID>set_hi("rubyRailsARMethod", s:mint, s:none, "NONE")
 call <SID>set_hi("rubyRailsRenderMethod", s:mint, s:none, "NONE")
 call <SID>set_hi("rubyRailsMethod", s:mint, s:none, "NONE")
 call <SID>set_hi("rubyArrayDelimiter", s:pink, s:none, "NONE")
+call <SID>set_hi("rubyInterpolation", s:light_purple, s:none, "NONE")
+call <SID>set_hi("rubyInterpolationDelimiter", s:pink, s:none, "NONE")
 
 call <SID>set_hi("erubyDelimiter", s:none, s:none, "NONE")
 call <SID>set_hi("erubyComment", s:light_yellow, s:none, "NONE")
