@@ -28,7 +28,7 @@ let s:dark_blue = [31, "#0087af"]
 
 let s:none = ["NONE", ""]
 
-fun <SID>set_hi(name, fg, bg, style)
+function! <SID>set_hi(name, fg, bg, style)
   execute "hi " . a:name . " ctermfg=" . a:fg[0] . " ctermbg=" . a:bg[0] " cterm=" . a:style
   if a:fg[1] != ""
     execute "hi " . a:name . " guifg=" . a:fg[1]
