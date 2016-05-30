@@ -157,3 +157,12 @@ call <SID>set_hi("coffeeCurly", s:lavender, s:none, "NONE")
 call <SID>set_hi("coffeeObjAssign", s:light_purple, s:none, "NONE")
 
 call <SID>set_hi("cjsxAttribProperty", s:lavender, s:none, "NONE")
+
+call <SID>set_hi("markdownH1", s:light_blue, s:none, "NONE")
+call <SID>set_hi("markdownH2", s:light_blue, s:none, "NONE")
+call <SID>set_hi("markdownH3", s:light_blue, s:none, "NONE")
+call <SID>set_hi("markdownH4", s:light_blue, s:none, "NONE")
+call <SID>set_hi("markdownH5", s:light_blue, s:none, "NONE")
+call <SID>set_hi("markdownH6", s:light_blue, s:none, "NONE")
+call <SID>set_hi("markdownHeadingDelimiter", s:light_blue, s:none, "NONE")
+call <SID>set_hi("markdownRule", s:light_blue, s:none, "NONE")
