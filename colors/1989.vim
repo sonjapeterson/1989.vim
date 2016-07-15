@@ -166,3 +166,11 @@ call <SID>set_hi("markdownH5", s:light_blue, s:none, "NONE")
 call <SID>set_hi("markdownH6", s:light_blue, s:none, "NONE")
 call <SID>set_hi("markdownHeadingDelimiter", s:light_blue, s:none, "NONE")
 call <SID>set_hi("markdownRule", s:light_blue, s:none, "NONE")
+
+" https://github.com/kien/rainbow_parentheses.vim
+let g:rbpt_colorpairs = [
+      \ s:mint, s:light_blue, s:lavender, s:pink,
+      \ s:mint, s:light_blue, s:lavender, s:pink,
+      \ s:mint, s:light_blue, s:lavender, s:pink,
+      \ s:mint, s:light_blue, s:lavender, s:pink,
+      \ ]
