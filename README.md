@@ -1,6 +1,6 @@
 # 1989.vim
 
-<img src="http://i.imgur.com/IcEi3pC.gif" width=500px>
+<img src="http://i.imgur.com/FhRzwiu.gif" width=500px>
 
 Maybe the first ever Taylor Swift themed color scheme for vim?
 
@@ -9,7 +9,6 @@ Maybe the first ever Taylor Swift themed color scheme for vim?
 ## Basic use:
 - copy the `/colors/1989.vim` file into your colors directory (generally `~/.vim/colors`, prob different on Windows)
 - add `colorscheme 1989` to your `~/.vimrc` or test it out inside vim using `:colorscheme 1989`
-
 
 It should work equally well with 256-color terminals and GUI vim.
 
