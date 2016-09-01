@@ -167,6 +167,9 @@ call <SID>set_hi("markdownH6", s:light_blue, s:none, "NONE")
 call <SID>set_hi("markdownHeadingDelimiter", s:light_blue, s:none, "NONE")
 call <SID>set_hi("markdownRule", s:light_blue, s:none, "NONE")
 
+call <SID>set_hi("SyntasticError", s:dark_gray, s:pink, "NONE")
+call <SID>set_hi("SyntasticWarning", s:dark_gray, s:light_blue, "NONE")
+
 " https://github.com/kien/rainbow_parentheses.vim
 if !exists("g:rbpt_colorpairs")
   let g:rbpt_colorpairs = [
