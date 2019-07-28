@@ -11,6 +11,7 @@ let g:colors_name = "1989"
 
 let s:dark_gray = [236, "#303030"]
 let s:mid_gray = [102, "#878787"]
+let s:light_gray = [238, "#444444"]
 let s:default_white = [231, "#FFFFFF"]
 
 let s:lavender = [183, "#dfafff"]
@@ -42,9 +43,9 @@ endfun
 call <SID>set_hi("Normal", s:default_white, s:dark_gray, "NONE")
 call <SID>set_hi("Cursor", s:dark_gray, s:default_white, "NONE")
 call <SID>set_hi("Visual", s:none, s:mid_gray, "NONE")
-call <SID>set_hi("CursorLine", s:none, s:dark_gray, "NONE")
-call <SID>set_hi("CursorColumn", s:none, s:dark_gray, "NONE")
-call <SID>set_hi("ColorColumn", s:none, s:dark_gray, "NONE")
+call <SID>set_hi("CursorLine", s:none, s:light_gray, "NONE")
+call <SID>set_hi("CursorColumn", s:none, s:light_gray, "NONE")
+call <SID>set_hi("ColorColumn", s:none, s:light_gray, "NONE")
 call <SID>set_hi("LineNr", s:mid_gray, s:dark_gray, "NONE")
 call <SID>set_hi("VertSplit", s:mid_gray, s:mid_gray, "NONE")
 call <SID>set_hi("MatchParen", s:pink, s:none, "underline")
